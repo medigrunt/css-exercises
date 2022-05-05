@@ -25,3 +25,40 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Peter edits*/
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+button {
+	padding: 8px 16px;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	gap: 8px;
+}
+.content {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.header,
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px;
+}
+.footer {
+	background: #eeeeee;
+}
+a {
+	color: #666666;
+	text-decoration: none;
+}
